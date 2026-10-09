@@ -1,0 +1,60 @@
+# Rust
+*.rs diff=rust
+Cargo.toml diff=toml
+Cargo.lock diff=toml
+
+# TypeScript/JavaScript
+*.ts diff=typescript
+*.tsx diff=typescript
+*.js diff=javascript
+*.mjs diff=javascript
+*.json diff=json
+
+# Noir (Zero Knowledge Language)
+*.nr diff=noir linguist-language=Noir
+
+# Solidity
+*.sol diff=solidity linguist-language=Solidity
+
+# Vue/Svelte
+*.vue diff=vue linguist-language=Vue
+*.svelte diff=svelte linguist-language=Svelte
+
+# Styles
+*.css diff=css
+*.scss diff=scss
+
+# Configuration
+*.toml diff=toml
+*.yaml diff=yaml
+*.yml diff=yaml
+
+# Markdown
+*.md diff=markdown
+
+# HTML/Templates
+*.html diff=html
+
+# SVG
+*.svg diff=svg
+
+# Shell Scripts
+*.sh diff=bash
+
+# Docker
+Dockerfile diff=dockerfile
+docker-compose.yml diff=yaml
+
+# Media and binary files
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.gz binary
+*.tar binary
+
+# Git-specific
+.gitattributes merge=union
+.gitignore merge=union
